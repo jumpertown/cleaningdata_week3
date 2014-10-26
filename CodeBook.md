@@ -26,10 +26,11 @@ The headers are in the first line of the output.  To analyse further with R run
 read.table('tidy.txt', header=TRUE)
 ```
 
-activity_id Numeric representation of the below activities
-VARIABLE.std...[?DIRECTION]: The standard deviation of the variables described in UCI\ HAR\ Dataset/features_info.txt
-VARIABLE.mean...[?DIRECTION]: The mean of the variables describled in UCI\ HAR\ Dataset/features_info.txt
-activity:  Factor w/ 6 levels: LAYING, SITTING, STANDING, WALKING WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
+* `activity_id` Numeric representation of the below activities
+* `VARIABLE.std...[?DIRECTION]`: The standard deviation of the variables described in UCI\ HAR\ Dataset/features_info.txt
+* `VARIABLE.mean...[?DIRECTION]`: The mean of the variables describled in UCI\ HAR\ Dataset/features_info.txt
+* `subject`: Integer denoting the different subjects carrying out the experiments
+* `activity`:  Factor w/ 6 levels: LAYING, SITTING, STANDING, WALKING WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
 
 
 ## subject_averages.txt columns
